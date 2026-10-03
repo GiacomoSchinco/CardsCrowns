@@ -1,0 +1,24 @@
+# Normalizza i fine riga
+* text=auto eol=lf
+
+# File binari (non tentare di fare diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ogg binary
+*.wav binary
+*.mp3 binary
+*.ttf binary
+*.otf binary
+*.tres binary
+*.res binary
+*.scn binary
+
+# File di scena Godot (testuali ma non diffabili bene)
+*.tscn linguist-generated=true
+*.tres linguist-generated=true
+*.godot linguist-generated=true
+
+# Escludi dalla linguistica di GitHub
+*.import linguist-generated=true
